@@ -1,0 +1,35 @@
+{
+  "name": "lovable-tagger",
+  "version": "1.1.9",
+  "description": "Local implementation of lovable-tagger Vite plugin for Al Fursan project",
+  "main": "index.js",
+  "type": "module",
+  "author": "Al Fursan Development Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": ">=5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "vite",
+    "plugin",
+    "development",
+    "tagging",
+    "local"
+  ]
+}
